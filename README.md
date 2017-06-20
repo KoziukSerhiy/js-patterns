@@ -1,4 +1,4 @@
-# Implementation patternі in JS.
+# Implementation patterns in JS.
 
 Creational patterns:
 - Singleton
