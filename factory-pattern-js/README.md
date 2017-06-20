@@ -1,0 +1,1 @@
+# Implementation Factory pattern in JS.
