@@ -3,3 +3,4 @@
 Creational patterns:
 - Singleton
 - Factory
+- Prototype
