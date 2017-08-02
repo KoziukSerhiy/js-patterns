@@ -6,3 +6,4 @@ Creational patterns:
 - Prototype
 Structural patterns
 - Adapter
+- Decorator

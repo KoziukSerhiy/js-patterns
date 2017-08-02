@@ -6,13 +6,13 @@ var MathFunctional = function () {
     this.subtraction = function () {
         console.log('subtraction = ' + (this.a - this.b));
     };
-    
-    this.multiplication = function() {
+
+    this.multiplication = function () {
         console.log('multiplication = ' + (this.a * this.b));
     };
-    
+
     this.division = function () {
-        (this.b == 0) ? 
+        (this.b == 0) ?
             console.log('Division by 0 is impossible') :
             console.log('division = ' + (this.a / this.b));
     };

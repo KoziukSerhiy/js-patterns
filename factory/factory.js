@@ -1,5 +1,5 @@
 // Factory
-function InfoMess() {}
+function InfoMess() { }
 
 // Public method
 InfoMess.prototype.show = function () {
@@ -16,11 +16,11 @@ InfoMess.create = function (type) {
 };
 
 // Specialized constructors.
-InfoMess.error = function() {
+InfoMess.error = function () {
     this.status = "Error";
 };
 
-InfoMess.good = function() {
+InfoMess.good = function () {
     this.status = "Good";
 };
 
