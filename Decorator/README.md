@@ -1,0 +1,1 @@
+# Implementation Decorator pattern in JS.
