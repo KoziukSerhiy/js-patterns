@@ -1,0 +1,1 @@
+# Implementation Facade pattern in JS.

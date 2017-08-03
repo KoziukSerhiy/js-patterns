@@ -8,3 +8,4 @@ Creational patterns:
 Structural patterns
 - Adapter
 - Decorator
+- Facade
