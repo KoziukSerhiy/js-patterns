@@ -1,3 +1,4 @@
+// Composite js pattern
 class SoundsGallery {
     constructor(name) {
         this.gallery = [];
