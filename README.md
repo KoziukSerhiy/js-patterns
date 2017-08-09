@@ -9,3 +9,4 @@ Structural patterns
 - Adapter
 - Decorator
 - Facade
+- Composite
