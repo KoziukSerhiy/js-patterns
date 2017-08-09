@@ -7,7 +7,7 @@ class SoundsGallery {
     add(child) {
         this.gallery.push(child);
     }
-    getNode() {
+    getSoundsGallery() {
         console.log(this);
     }
 }
@@ -29,4 +29,4 @@ rock.add(punkRock);
 metal.add(alternative);
 metal.add(nuMetal);
 
-tree.getNode();
+tree.getSoundsGallery();
