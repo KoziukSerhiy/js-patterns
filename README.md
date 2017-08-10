@@ -10,3 +10,6 @@ Structural patterns
 - Decorator
 - Facade
 - Composite
+
+Behavioral patterns
+- Strategy
