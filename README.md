@@ -13,5 +13,5 @@ Structural patterns
 
 Behavioral patterns
 - Strategy
-- 
+- Command
 - Iterator
