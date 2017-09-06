@@ -1,19 +1,20 @@
-var CreateInstance = function () {
-    this.counter = 0;
-};
-
-CreateInstance.prototype.increaseCounter = function () {
-    this.counter++;
-};
-
-CreateInstance.prototype.getCounter = function () {
-    return this.counter;
-};
+// singletone
+class CreateInstance {
+    constructor() {
+        this.counter = 0;
+    }
+    increaseCounter() {
+        this.counter++;
+    }
+    getCounter() {
+        return this.counter;
+    }
+}
 
 var CounterModule = (function () {
     var instance = null;
 
-    return function() {
+    return function () {
         return instance || (instance = new CreateInstance());
     };
 })();

@@ -9,6 +9,8 @@ class Validator {
         return this.type.check(s);
     }
 }
+
+// strategys
 var String = function () {
     this.check = (s) => {
         (typeof s === 'string') ?

@@ -1,3 +1,5 @@
 # Implementation Command pattern in JS.
 
-**Command** - інкапсуляція та контроль запитів. 
+**Command** - Encapsulation and query control.
+
+**Command** - Інкапсуляція та контроль запитів.

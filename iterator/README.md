@@ -1,3 +1,5 @@
 # Implementation Iterator pattern in JS.
 
-**Iterator** - 
+**Iterator** - The Iterator pattern allows clients to effectively loop over a collection of objects.
+
+**Iterator** - Шаблон Ітератора дозволяє клієнтам ефективно виконувати цикл над набором об'єктів.

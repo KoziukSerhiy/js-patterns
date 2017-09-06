@@ -4,6 +4,7 @@ class SoundsGallery {
         this.gallery = [];
         this.name = name;
     }
+    // public methods
     add(child) {
         this.gallery.push(child);
     }
@@ -12,7 +13,8 @@ class SoundsGallery {
     }
 }
 
-let tree = new SoundsGallery('root'),
+// test
+let root = new SoundsGallery('root'),
     rock = new SoundsGallery('rock'),
     metal = new SoundsGallery('metal'),
     popRock = new SoundsGallery('popRock'),
@@ -20,8 +22,8 @@ let tree = new SoundsGallery('root'),
     alternative = new SoundsGallery('alternative'),
     nuMetal = new SoundsGallery('nuMetal');
 
-tree.add(rock);
-tree.add(metal);
+root.add(rock);
+root.add(metal);
 
 rock.add(popRock);
 rock.add(punkRock);
@@ -29,4 +31,4 @@ rock.add(punkRock);
 metal.add(alternative);
 metal.add(nuMetal);
 
-tree.getSoundsGallery();
+root.getSoundsGallery();
