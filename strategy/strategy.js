@@ -2,12 +2,12 @@ class Validator {
   constructor() {
     this.strategy = "";
   }
-  
+
   setStrategy(strategy) {
     this.strategy = strategy;
   }
-  
-  check(params) {    
+
+  check(params) {
     return this.strategy.check(params);
   }
 }
@@ -33,12 +33,9 @@ class NumberStrategy {
 const name = "Tom";
 const age = 18;
 
-const stringStrategy = new StringStrategy();
-const numberStrategy = new NumberStrategy();
-
 const validator = new Validator();
 
-validator.setStrategy(stringStrategy);
+validator.setStrategy(new StringStrategy());
 validator.check(name);
-validator.setStrategy(numberStrategy);
+validator.setStrategy(new NumberStrategy());
 validator.check(age);
