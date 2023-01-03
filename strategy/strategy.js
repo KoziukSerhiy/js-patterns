@@ -14,7 +14,7 @@ class Validator {
 
 // strategys
 class StringStrategy {
-  consytuctor() {}
+  constructor() {}
 
   check(s) {
     typeof s === "string"
@@ -24,7 +24,7 @@ class StringStrategy {
 }
 
 class NumberStrategy {
-  consytuctor() {}
+  constructor() {}
 
   check(n) {
     typeof n === "number"
