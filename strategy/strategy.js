@@ -14,8 +14,6 @@ class Validator {
 
 // strategys
 class StringStrategy {
-  constructor() {}
-
   check(s) {
     typeof s === "string"
       ? console.log(`It's a string`)
@@ -24,8 +22,6 @@ class StringStrategy {
 }
 
 class NumberStrategy {
-  constructor() {}
-
   check(n) {
     typeof n === "number"
       ? console.log(`It's a number`)
