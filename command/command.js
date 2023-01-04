@@ -1,28 +1,30 @@
 // command
 class Switcher {
-    constructor() {
-        this.#commands = [];
-    }
-    // public methot
-    do(commandName) {
-        const fnName = `#${commandName}`;
+  _commandsList;
 
-        if (this[fnName]) {
-            this.#commands.push(commandName);
-            this[fnName]();
-        };
+  constructor() {
+    this._commandsList = [];
+  }
+  // public methot
+  do(commandName) {
+    const fnName = `_${commandName}`;
+
+    if (this[fnName]) {
+      this._commandsList.push(commandName);
+      this[fnName]();
     }
-    // private methods
-    #turnOn() {
-        console.log('turnOn');
-    }
-    #turnOff() {
-        console.log('turnOff');
-    }
+  }
+  // private methods
+  _turnOn() {
+    console.log("turnOn");
+  }
+  _turnOff() {
+    console.log("turnOff");
+  }
 }
 
 // test
 const switcher = new Switcher();
 
-switcher.do('turnOn');
-switcher.do('turnOff');
+switcher.do("turnOn");
+switcher.do("turnOff");
