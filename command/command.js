@@ -1,5 +1,5 @@
 // command
-class Switch {
+class Switcher {
     constructor() {
         this.#commands = [];
     }
@@ -22,7 +22,7 @@ class Switch {
 }
 
 // test
-var s = new Switch();
+const switcher = new Switcher();
 
-s.do('turnOn');
-s.do('turnOff');
+switcher.do('turnOn');
+switcher.do('turnOff');
