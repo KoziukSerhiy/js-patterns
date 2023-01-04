@@ -1,22 +1,22 @@
 // command
 class Switch {
     constructor() {
-        this._commands = [];
+        this.#commands = [];
     }
     // public methot
     do(commandName) {
-        let fnName = `_${commandName}`;
+        let fnName = `#${commandName}`;
 
         if (this[fnName]) {
-            this._commands.push(commandName);
+            this.#commands.push(commandName);
             this[fnName]();
         };
     }
     // private methods
-    _turnOn() {
+    #turnOn() {
         console.log('turnOn');
     }
-    _turnOff() {
+    #turnOff() {
         console.log('turnOff');
     }
 }
