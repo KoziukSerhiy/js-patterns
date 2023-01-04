@@ -5,7 +5,7 @@ class Switch {
     }
     // public methot
     do(commandName) {
-        let fnName = `#${commandName}`;
+        const fnName = `#${commandName}`;
 
         if (this[fnName]) {
             this.#commands.push(commandName);
