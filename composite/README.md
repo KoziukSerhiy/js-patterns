@@ -1,7 +1,7 @@
-# Implementation Composite pattern in JS.
+# Implementing the Composite pattern in JS.
 
+**Composite** - Describes a group of objects that can be treated in the same way
+a single instance of an object may be.
 
-**Composite** - Describes a group of objects that can be treated in the same way a single instance of an object may be.
-
-**Composite** - Представляє собою обєкти, які складаються з декількох части, які створюють единий об'єкт.
-Цей єдитиний об'єкт слугує точкою доступу до них.
+**Composite** - Представляє собою обєкти, які складаються з декількох части, які
+створюють единий об'єкт. Цей єдитиний об'єкт слугує точкою доступу до них.

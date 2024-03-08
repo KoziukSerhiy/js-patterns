@@ -1,4 +1,4 @@
-# Implementation Facade pattern in JS.
+# Implementing the Facade pattern in JS.
 
 **Facade** - Encapsulation of complex logic.
 

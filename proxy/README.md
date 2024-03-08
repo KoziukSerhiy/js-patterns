@@ -1,4 +1,4 @@
-# Proxy Design Pattern in JavaScript
+# Implement the Proxy design pattern in JS.
 
 **Proxy** - This is an object that acts as a wrapper over another object and
 controls access to that object.

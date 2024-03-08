@@ -1,4 +1,4 @@
-# Implementation Command pattern in JS.
+# Implementing the Command pattern in JS.
 
 **Command** - Encapsulation and query control.
 
