@@ -10,6 +10,7 @@ Structural patterns
 - Decorator
 - Facade
 - Composite
+- Proxy
 
 Behavioral patterns
 - Strategy
